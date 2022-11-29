@@ -1,3 +1,3 @@
-# The Cricket Project
+# Custom Server
 
-Backend API of The Cricket Project - A local library in Hanoi
+Custom TS server using Fastify + Knex + PostgreSQL
