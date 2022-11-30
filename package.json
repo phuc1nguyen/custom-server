@@ -10,7 +10,9 @@
     "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
     "lint": "eslint . --ext .js,.ts",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "migrate:latest:dev": "knex migrate:latest --knexfile config/knexfile.ts --env development",
+    "migrate:latest:prod": "knex migrate:latest --knexfile config/knexfile.ts --env production"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
